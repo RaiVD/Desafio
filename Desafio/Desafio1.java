@@ -6,7 +6,7 @@ import java.util.Random;
 public class Desafio1 {
     public static void main(String[] args) {
         System.out.println("\n----------------Jogo dos Dados---------------");
-        System.out.println("\n------------------Instruções----------------");
+        System.out.println("\n------------------Instruções-----------------");
         System.out.println("ºVocê tem direito a 5 rodadas!");
         System.out.println("ºCaso o seu numero for igual ao numero gerado: ganha 10 pontos!");
         System.out.println("ºCaso o seu número for diferente do numero gerado e estiver um número\n acima ou um número abaixo do número sorteado: ganha 5 pontos!");
@@ -19,7 +19,7 @@ public class Desafio1 {
         for (int i = 0; i < 5; i++) {
 
             Scanner numerodoUsuario = new Scanner(System.in);
-            System.out.println("--------------------------------------------");
+            System.out.println("---------------------------------------------");
             System.out.println("Digite um numero entre 0 e 10: ");
             int numeroUsuario = numerodoUsuario.nextInt();
 
@@ -49,7 +49,7 @@ public class Desafio1 {
                 System.out.println("Você perdeu");
             }
         }
-        System.out.println("-------------------------------");
+        System.out.println("---------------------------------------------");
 
         System.out.println("Rodadas ganhas: " + ganhou + "\nRodadas perdidas: " + perdeu);
         System.out.println("Rodadas Invalidas: " + rodadaInvalida);
